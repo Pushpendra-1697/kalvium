@@ -1,0 +1,42 @@
+#drag-square {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#drop-target {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+@media all and (min-width: 481px) and (max-width: 768px) {
+    #drag-square {
+        width: 100px;
+        height: 100px;
+    }
+
+    #drop-target {
+        width: 140px;
+        height: 140px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 480px) {
+    #drag-square {
+        width: 70px;
+        height: 70px;
+    }
+
+    #drop-target {
+        width: 120px;
+        height: 120px;
+    }
+}
